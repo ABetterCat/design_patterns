@@ -7,6 +7,7 @@ type Factory interface {
 	CreateLunzi() Product
 	CreateChetai() Product
 	CreateChejia() Product
+
 }
 type Product interface {
 	Creating()
